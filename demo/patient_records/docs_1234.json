@@ -1,0 +1,106 @@
+[
+  {
+    "type": "clinical_doc",
+    "sub_type": "consultation",
+    "mrn": "123456",
+    "id": "CDR001",
+    "procedure_date": "2023-01-15",
+    "content": "Patient is a 52-year-old female presenting with a palpable mass in the right breast. Initial mammogram and ultrasound confirmed a 1.8 cm lesion. Biopsy revealed ER-positive, HER2-negative invasive ductal carcinoma. ECOG performance status is 0. Patient is premenopausal. Discussed treatment options including lumpectomy and sentinel lymph node biopsy. Patient is HIV-positive but on effective antiretroviral therapy with undetectable viral load. Plan for surgery within the next month."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "surgical_note",
+    "mrn": "123456",
+    "id": "CDR002",
+    "procedure_date": "2023-02-10",
+    "content": "Performed right breast lumpectomy and sentinel lymph node biopsy. Intraoperative findings consistent with preoperative imaging. Lumpectomy margins clear of invasive carcinoma and DCIS, no ink on tumor. Sentinel lymph node biopsy negative for metastasis (pN0). Incision closed with sutures, patient tolerated procedure well. Post-operative recovery uneventful, incision healing well. Plan for follow-up in two weeks."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "follow_up",
+    "mrn": "123456",
+    "id": "CDR003",
+    "procedure_date": "2023-02-24",
+    "content": "Post-operative follow-up visit. Incision site healing well, no signs of infection. Pathology confirmed pT1, pN0 invasive ductal carcinoma, ER-positive, HER2-negative. Oncotype DX Recurrence Score is 16, indicating low risk. Discussed adjuvant endocrine therapy for 5 years. Patient agrees to start tamoxifen. Scheduled for bilateral mammogram in 6 months."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "oncology_consult",
+    "mrn": "123456",
+    "id": "CDR004",
+    "procedure_date": "2023-03-01",
+    "content": "Oncology consultation to discuss adjuvant treatment plan. Patient is premenopausal, ECOG status remains 0. Reviewed pathology and Oncotype DX results. Recommended tamoxifen for 5 years. Discussed potential side effects and management strategies. Patient understands and agrees to treatment plan. Next follow-up in 3 months."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "radiology_report",
+    "mrn": "123456",
+    "id": "CDR005",
+    "procedure_date": "2023-03-15",
+    "content": "Bilateral mammogram performed. No new suspicious lesions identified. Post-surgical changes noted in the right breast consistent with recent lumpectomy. No evidence of residual or recurrent disease. Recommend routine follow-up imaging in 6 months."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "endocrinology_follow_up",
+    "mrn": "123456",
+    "id": "CDR006",
+    "procedure_date": "2023-06-01",
+    "content": "Endocrinology follow-up for tamoxifen therapy. Patient reports mild hot flashes, otherwise tolerating medication well. No new symptoms or concerns. Blood work within normal limits. Continue current regimen, next follow-up in 6 months."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "annual_review",
+    "mrn": "123456",
+    "id": "CDR007",
+    "procedure_date": "2024-01-10",
+    "content": "Annual review of breast cancer treatment. Patient remains on tamoxifen, ECOG status 0. No evidence of disease recurrence. Mammogram from December 2023 shows no new findings. Patient reports good quality of life, continues to manage side effects of therapy. Plan to continue current treatment and follow-up schedule."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "psychosocial_assessment",
+    "mrn": "123456",
+    "id": "CDR008",
+    "procedure_date": "2024-03-05",
+    "content": "Psychosocial assessment conducted. Patient coping well with diagnosis and treatment. Support system includes family and friends. No signs of depression or anxiety. Encouraged to continue attending support group sessions. Next psychosocial follow-up in 6 months."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "gynecology_follow_up",
+    "mrn": "123456",
+    "id": "CDR009",
+    "procedure_date": "2024-06-20",
+    "content": "Gynecology follow-up for routine care. Patient remains premenopausal, no menstrual irregularities reported. Discussed potential long-term effects of tamoxifen. Routine pelvic exam normal. Continue current follow-up schedule with oncology and gynecology."
+  },
+  {
+    "type": "clinical_doc",
+    "sub_type": "final_review",
+    "mrn": "123456",
+    "id": "CDR010",
+    "procedure_date": "2025-01-15",
+    "content": "Final review of breast cancer treatment course. Patient has completed 2 years of tamoxifen therapy with no evidence of disease recurrence. ECOG status remains 0. Discussed continuation of tamoxifen for a total of 5 years. Patient is compliant and reports minimal side effects. Plan to continue monitoring with annual mammograms and regular follow-ups."
+  },
+  {
+    "type": "pathology",
+    "sub_type": "breast_biopsy",
+    "mrn": "123456",
+    "id": "PR001",
+    "procedure_date": "2023-01-05",
+    "content": "Specimen: Right breast core biopsy. Diagnosis: Invasive ductal carcinoma, ER-positive (90%), HER2-negative (0 by IHC). Tumor size: 1.8 cm. No lymphovascular invasion identified. Recommended surgical excision with sentinel lymph node biopsy."
+  },
+  {
+    "type": "radiology",
+    "sub_type": "mammogram",
+    "mrn": "123456",
+    "id": "RR001",
+    "procedure_date": "2023-01-03",
+    "content": "Bilateral mammogram shows a 1.8 cm spiculated mass in the upper outer quadrant of the right breast. No suspicious calcifications or additional lesions identified. Recommend ultrasound-guided biopsy for further evaluation."
+  },
+  {
+    "type": "radiology",
+    "sub_type": "ultrasound",
+    "mrn": "123456",
+    "id": "RR002",
+    "procedure_date": "2023-01-04",
+    "content": "Breast ultrasound confirms a 1.8 cm hypoechoic mass in the right breast, corresponding to mammogram findings. No axillary lymphadenopathy noted. Proceed with core needle biopsy for histopathological examination."
+  }
+]

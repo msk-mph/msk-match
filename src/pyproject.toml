@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "trialmatcher"
+version = "0.0.1"
+description = "AI powered clinical trial matching"
+authors = ["rosentj <rosentj@mskcc.org>"]
+readme = "README.md"
+include = ["data/human_in_the_loop_data.txt"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+openai = "^1.55.0"
+langchain = "^0.3.7"
+pandas = "^2.2.3"
+tqdm = "^4.67.0"
+pydantic = "^2.9.2"
+ipython = "^8.30.0"
+langgraph = "^0.2.54"
+langchain-openai = "^0.2.11"
+jinja2 = "^3.1.4"
+langchain-community = "^0.3.9"
+graphrag = "^1.2.0"
+redis = "^5.2.1"
+ipykernel = "^6.29.5"
+pre-commit = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

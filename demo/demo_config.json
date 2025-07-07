@@ -1,0 +1,39 @@
+{
+  "description": "base_config",
+  "experiment_name": "base_config",
+  "embedding_model": "text-embedding-3-large",
+  "k": 10,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "split_vectorstore_by_agent": {
+    "pathologist": [
+      "pathology"
+    ],
+    "radiologist": [
+      "radiology"
+    ],
+    "radiation oncologist": [
+      "radiation",
+      "rad onc"
+    ],
+    "medical oncologist": [
+      "medicine",
+      "dom",
+      "pulmonary"
+    ],
+    "surgeon": [
+      "surgery",
+      "surgical",
+      "plastic"
+    ]
+  },
+  "exclude_note_keywords": [
+    "nursing",
+    "rehabilitation",
+    "survivorship"
+  ],
+  "final_determination_method": "rule_based",
+  "check_explanations": false,
+  "output_dir": "demo/",
+  "data_dir": "demo/"
+}

@@ -1,0 +1,9 @@
+Spread to axillary nodes does not count as “metastatic disease” for the purposes of breast cancer trial exclusion criterion.
+Mastectomies and lumpectomies are not considered cosmetic or reconstructive breast surgery.
+Make sure that the explanation is consistent with the final determination.
+Ensure that documentation of discussions of planned future treatments are not mistaken for treatment history.
+If a criterion requires specific concrete data elements such as ECOG status, BMI, or age, and the data element is not explicitly mentioned in the patient's chart, the criterion should be marked as 'unable to determine' and flagged for human review.
+If there is no mention of HIV status or CD4 count tests, then it is reasonable to assume that the patient is not HIV positive.
+If there is no mention of pregnancy status or pregnancy test results, then it is reasonable to assume that the patient is not pregnany.
+Criteria describing sub-studies should be marked as “Met” or “Unable to determine” if not relevant to the patient, so as to not adversely affect their overall eligibility assessment for the main study.
+For criteria in the form 'patients with X are eligible if Y,' showing that a patient does not have X is sufficient to answer the criterion.
